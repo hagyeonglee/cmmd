@@ -16,17 +16,17 @@ The [original original implementation](https://github.com/google-research/google
 
 ## Run
 ```bash
-python cpython -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset
+python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset
 ```
 
 **Notes**:
 * if you want to use other version of CLIP: 
 ```bash
-python cpython -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --model_version model version
+python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --model_version model version
 ```
 * if you want to use other subset size:
 ```bash
-python cpython -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --subset_size subset size
+python -u cmmd.py --original_folder_path /path/to/original/dataset  --generated_folder_path /path/to/generated/dataset --subset_size subset size
 ```
 ## Acknowledgements
 Thank you to the authors for proposing CMMD, which improves to evaluate generated data in a robust and reliable manner. 
